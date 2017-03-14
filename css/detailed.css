@@ -1,0 +1,160 @@
+/*
+* @Author: Administrator
+* @Date:   2017-02-18 21:31:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-02-25 22:22:41
+*/
+@charset="utf-8";
+#main .works{
+	height: 40px;
+	border:1px solid #CCCCCC;
+	background: #F9F9F9;
+	line-height: 40px;
+	color: #403a3a;
+}
+
+#main .p-text{
+	padding:0px 10px;	
+}
+
+#main .p-text span{
+	font-size: 18px;
+	border-left: 3px solid #E80000;
+	padding-left: 10px;
+}
+
+#main .works-name{
+	width: 110px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 4px;
+}
+
+#main .search-works{
+	width: 50px;
+	height: 24px;
+	color: #fff;
+	background: #020202;
+	line-height: 24px;
+	text-align: center;
+}
+
+#main .works-form li+li{
+	padding-right: 10px;
+}
+
+#main .works-ul{
+	height: 32px;
+	line-height: 32px;
+	background: #FEF8E2;
+	margin:20px 10px;
+	margin-bottom: 0px;
+}
+
+#main .works-ul li{
+	margin-right: 40px;
+}
+
+#main .works-ul li:first-child{
+	margin-left: 13px;
+}
+
+#main .works-ul a{
+	color: #000;
+}
+
+#main .works-ul span{
+	color: #E80000;
+	margin:0px 5px;
+}
+
+#main .img-works{
+	margin-left: 10px;
+	margin-bottom: 30px;
+	height: 540px;
+}
+
+#main .figure{
+	height: 180px;
+	padding:20px 0px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+#main .figure-img{
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+}
+
+#main .figure-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#main .figcaption-ul{
+	width: 810px;
+	margin-top: 35px;
+}
+
+#main .figcaption-ul li{
+	width: 97px;
+	text-align: left;
+	margin-bottom: 15px;
+} 
+
+#main .figcaption-ul li.title-li{
+	width: 700px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+#main li.title-li a{
+	color: #000;
+}
+
+#main .title-on a{
+	font-size: 18px;
+	
+}
+
+#span-li{
+	color: #E80000;
+	cursor: pointer;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+#main .title-off a{
+	color: #E80000;
+	border-bottom: 1px solid #E80000;
+	padding-bottom: 1px;
+}
+
+/* page-ul 分页样式 */
+#page-ul{
+	margin:120px 20px 50px 0px;
+}
+
+#page-ul a,
+#page-ul span{
+	border:1px solid #CCCCCC;
+	padding: 5px 10px;
+	margin: 0px 3px;
+}
+
+#page-ul a{
+	color: #666;
+}
+
+#page-ul span{
+	background: #CCCCCC;
+}
+
+#page-ul span:nth-child(1){
+	color: #fff;
+}
+
+#footer{
+	margin-top: 1030px;
+}
